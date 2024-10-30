@@ -1,13 +1,14 @@
 [tool.poetry]
 name = "echo-app-poetry"
-version = "0.1.0"
-description = ""
+version = "1.0.0"
+description = "A simple echo app using Poetry"
 authors = ["r8vnhill <reachme@ravenhill.cl>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
-
+app = {path = "app", develop = true}
+lib = {path = "lib", develop = true}
 
 [build-system]
 requires = ["poetry-core"]

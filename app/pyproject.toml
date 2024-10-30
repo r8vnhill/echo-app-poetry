@@ -1,0 +1,9 @@
+[tool.poetry]
+name = "app"
+version = " 1.0.0"
+description = "A subproject for the app"
+authors = ["Ignacio Slater <reachme@ravenhill.cl>"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
