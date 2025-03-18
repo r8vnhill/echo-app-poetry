@@ -5,5 +5,5 @@ description = "A subproject for the app"
 authors = ["Ignacio Slater <reachme@ravenhill.cl>"]
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = "^3.13.2"
 
